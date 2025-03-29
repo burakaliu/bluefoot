@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
             
             <BenefitItem>
               <h4 className="text-gray-900 font-bold text-lg">Build Credibility</h4>
-              <p className="text-gray-600">A professional website instantly boosts your business's credibility and trustworthiness.</p>
+              <p className="text-gray-600">A professional website instantly boosts your business&apos;s credibility and trustworthiness.</p>
             </BenefitItem>
             
             <BenefitItem>

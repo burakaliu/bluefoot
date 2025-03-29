@@ -9,7 +9,7 @@ const CTA = () => {
         <div className="text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Grow Your Local Business Online?</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8">
-            Get started today with a free consultation. We'll discuss your business goals and how
+            Get started today with a free consultation. We&apos;ll discuss your business goals and how
             we can help you reach more local customers.
           </p>
           <Link

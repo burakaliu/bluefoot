@@ -18,7 +18,7 @@
     --foreground: #ededed;
   }
 }
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) { /* CHANGE THIS BACK LATER */
   :root {
     --background: #ffffff;
     --foreground: #171717;

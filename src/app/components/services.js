@@ -5,7 +5,7 @@ import React from "react";
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-8 transition-all duration-300 hover:shadow-lg">
+    <div className="bg-white rounded-lg shadow-md p-8 transition-all duration-300 hover:shadow-xl">
       <div className="bg-blue-100 rounded-lg p-4 inline-block mb-4">
         <Image src={icon} alt={title} width={24} height={24} />
       </div>
@@ -18,7 +18,7 @@ const ServiceCard = ({ icon, title, description }) => {
   );
 };
 
-const Services = () => {
+const Services = ({ className}) => {
   const services = [
     {
       icon: "/globe.svg",
@@ -56,7 +56,7 @@ const Services = () => {
     <section id="services" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Website Services</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
           <p className="text-xl text-gray-900 max-w-3xl mx-auto">
             Everything you need to establish a powerful online presence and attract new customers to your local business.
           </p>

@@ -60,7 +60,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-1">Email Us</h3>
                   <p className="text-gray-600">info@bluefoot.com</p>
-                  <p className="text-gray-600">We'll respond within 24 hours</p>
+                  <p className="text-gray-600">We&apos;ll respond within 24 hours</p>
                 </div>
               </div>
               
@@ -155,7 +155,7 @@ export default function Contact() {
                   Send Message
                 </button>
               </form>
-              <p className="text-center text-gray-600 mt-4">We'll get back to you within 24 hours!</p>
+              <p className="text-center text-gray-600 mt-4">We&apos;ll get back to you within 24 hours!</p>
             </div>
           </div>
         </div>

@@ -16,14 +16,14 @@ export default function About() {
             </h1>
             <div className="max-w-3xl">
               <p className="text-xl text-gray-900 mb-8">
-                Welcome to Bluefoot, where we're revolutionizing the way businesses interact with AI technology.
+                Welcome to Bluefoot, where we&apos;re revolutionizing the way businesses interact with AI technology.
               </p>
               <p className="text-lg text-gray-900 mb-6">
                 Our mission is to make AI accessible and practical for businesses of all sizes. We specialize in developing
                 cutting-edge AI solutions that help organizations streamline their operations and make data-driven decisions.
               </p>
               <p className="text-lg text-gray-900 mb-10">
-                With expertise in machine learning, natural language processing, and AI integration, we're committed to
+                With expertise in machine learning, natural language processing, and AI integration, we&apos;re committed to
                 delivering innovative solutions that drive real business value.
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-gray-900 text-xl font-bold mb-3">Innovation in AI</h3>
-              <p className="text-gray-900">Pushing the boundaries of what's possible with artificial intelligence technology.</p>
+              <p className="text-gray-900">Pushing the boundaries of what&apos;s possible with artificial intelligence technology.</p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-8 transition-all duration-300 hover:shadow-xl">

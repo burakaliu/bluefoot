@@ -128,8 +128,8 @@ export default function PricingPage() {
   );
 
   return (
-    <div className="min-h-screen relative bg-gradient-to-br from-blue-800 via-blue-900 to-purple-900">
-      <div className="absolute inset-0 bg-[radial-gradient(#93c5fd_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.07]"></div>
+    <div className="min-h-screen relative bg-gradient-to-br from-red-800 via-purple-900 to-purple-900">
+      <div className="absolute inset-0 bg-[radial-gradient(#fecaca_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.07]"></div>
       <div className="relative">
         <div className="text-center py-16">
           <h1 className="text-5xl font-extrabold text-white mb-6 leading-relaxed">

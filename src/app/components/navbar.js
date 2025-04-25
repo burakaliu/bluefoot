@@ -38,6 +38,12 @@ const Navbar = () => {
               Services
             </Link>
             <Link 
+              href="/pricing" 
+              className="px-4 py-2 rounded-full text-gray-900 hover:bg-gray-100 hover:text-blue-600 transition-all duration-300"
+            >
+              Pricing
+            </Link>
+            <Link 
               href="/contact" 
               className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-2xl shadow-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-semibold"
             >
@@ -68,8 +74,14 @@ const Navbar = () => {
                 Services
               </Link>
               <Link 
+                href="/pricing"
+                className="block px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-100 hover:text-blue-600 transition-all duration-300"
+              >
+                Pricing
+              </Link>
+              <Link 
                 href="/contact"
-                className="block px-4 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                className="block px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-100 hover:text-blue-600 transition-all duration-300"
               >
                 Contact
               </Link>

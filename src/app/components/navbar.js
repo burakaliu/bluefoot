@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -12,9 +13,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/home" className="flex items-center ml-4">
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              bluefoot
-            </span>
+            <Image
+              src="/logo.svg"
+              alt="Your Logo"
+              width={140}
+              height={30}
+              className="ml-1"
+            />
           </Link>
 
           {/* Desktop Navigation */}

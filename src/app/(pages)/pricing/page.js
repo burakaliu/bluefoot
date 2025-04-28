@@ -23,12 +23,12 @@ export default function PricingPage() {
       price: "$99/mo",
       description: "Ongoing website maintenance and support",
       features: [
-        "Monthly Updates",
+        "Yearly Updates",
         "Security Monitoring",
         "Basic SEO Management",
-        "24/7 Support",
         "Performance Reports",
-        "Content Updates"
+        "Content Updates",
+        "Custom Content"
       ]
     },
     {
@@ -37,36 +37,23 @@ export default function PricingPage() {
       description: "Advanced website management and growth",
       features: [
         "Everything in Basic, plus:",
-        "Weekly Updates",
+        "Monthly Updates",
+        "24/7 Support",
         "Advanced SEO",
-        "Social Media Integration",
         "Analytics Reports",
         "Priority Support"
       ]
     },
-    {
-      name: "Enterprise",
-      price: "$399/mo",
-      description: "Complete digital presence management",
-      features: [
-        "Everything in Professional, plus:",
-        "Daily Updates",
-        "Custom Development",
-        "Marketing Integration",
-        "Dedicated Manager",
-        "Strategy Consulting"
-      ]
-    }
   ];
 
   const PricingSection = ({ title, description, tiers }) => (
     <div className="py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             {title}
           </h2>
-          <p className="mt-4 text-xl font-medium text-gray-200">
+          <p className="mt-4 text-xl font-medium text-gray-800">
             {description}
           </p>
       </div>
@@ -90,7 +77,7 @@ export default function PricingPage() {
                     {tier.price}
                   </span>
                 </p>
-                <p className="mt-6 text-gray-500">{tier.description}</p>
+                <p className="mt-6 text-gray-900">{tier.description}</p>
 
                 <ul role="list" className="mt-6 space-y-6">
                   {tier.features.map((feature) => (
@@ -109,14 +96,14 @@ export default function PricingPage() {
                           d="M5 13l4 4L19 7"
                         />
                       </svg>
-                      <span className="ml-3 text-gray-500">{feature}</span>
+                      <span className="ml-3 text-gray-800">{feature}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
               <button
-                className="mt-8 block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-md py-3 px-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:from-blue-700 hover:to-purple-700 active:scale-95 ring-2 ring-black hover:ring-4"
+                className="mt-8 block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-md py-3 px-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:from-blue-700 hover:to-purple-700 active:scale-95 "
               >
                 Get Started
               </button>
@@ -128,28 +115,21 @@ export default function PricingPage() {
   );
 
   return (
-    <div className="min-h-screen relative bg-gradient-to-br from-red-800 via-purple-900 to-purple-900">
-      <div className="absolute inset-0 bg-[radial-gradient(#fecaca_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.07]"></div>
+    <div className="min-h-screen relative bg-white">
+      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_2px,transparent_2px)] [background-size:16px_16px] opacity-60"></div>
       <div className="relative">
         <div className="text-center py-16">
-          <h1 className="text-5xl font-extrabold text-white mb-6 leading-relaxed">
+          <h1 className="text-5xl font-extrabold text-gray-800 mb-6 leading-relaxed">
             Flexible Pricing Solutions
           </h1>
-          <p className="text-xl font-medium text-gray-200 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-medium text-gray-900 max-w-3xl mx-auto leading-relaxed">
             Tailored financial options to support businesses of all sizes, from emerging startups to established enterprises
           </p>
         </div>
-        
-        <div className="border-b border-gray-200">
-          <PricingSection
-            title="Commission-Based Services"
-            description="One-time payment based on project value"
-            tiers={commissionTiers}
-          />
-        </div>
+      
         <PricingSection
-          title="Subscription Services"
-          description="Ongoing website maintenance and support"
+          //title="Subscription Services"
+          //description="Ongoing website maintenance and support"
           tiers={subscriptionTiers}
         />
       </div>

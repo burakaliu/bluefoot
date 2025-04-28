@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1">
             <Link href="/" className="text-2xl font-bold text-blue-600 mb-4 block">
-              bluefoot
+              Imprint
             </Link>
             <p className="text-gray-900 mb-4">
               Helping local businesses establish a powerful online presence and attract new
